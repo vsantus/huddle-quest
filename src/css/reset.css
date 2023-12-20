@@ -8,14 +8,12 @@ body{
     font-family: 'Lato';
     background-image: url('/src/images/bg-desktop.svg');
     background-size: cover;
+   
 }
-
-
 
 *{
     padding: 0px;
     margin: 0px;
-    color: #fff;
 }
 
 a{

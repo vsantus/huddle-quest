@@ -1,7 +1,6 @@
 .header {
     display: flex;
     height: 100px;
-
 }
 
 .header img {
@@ -10,17 +9,14 @@
 }
 
 .main {
-
     display: flex;
     max-width: 1920px;
     height: 72vh;
-
 }
 
 .main .screens img {
     margin-left: 60px;
     max-width: 600px;
-
 }
 
 .container {
@@ -32,19 +28,19 @@
     gap: 20px;
     padding-top: 40px;
     margin-left: 40px;
-
 }
 
 .container .title h2 {
     font-size: 40px;
     font-weight: 700;
     align-self: center;
-
+    color: #fff;
 }
 
 .container .paragraph p {
     font-size: 20px;
     font-weight: 200;
+    color: #fff;
 }
 
 .container .register {
@@ -74,7 +70,6 @@
     font-weight: 300;
     padding: 10px 0;
     width: 100%;
-
 }
 
 .container .register a:hover {
@@ -82,21 +77,16 @@
 }
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    height: 40px;
-    margin: 0 100px;
-
-    /* background-color: cornflowerblue; */
+    right: 100px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
 }
 
 .footer .social {
     margin-right: 5%;
     display: flex;
     gap: 20px;
-    
-    /* background-color: darkcyan; */
 }
 
 .footer .social .icons {
@@ -108,30 +98,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* background-color: darkolivegreen; */
+    color: #fff;
 }
 
 .footer .social .icons:hover{
-    color: blue;
-}
-
-@media (max-width:425px) {
-    .main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .container {
-        text-align: center;
-        width: 100%;
-    }
-
-    .container .title h2 {
-        font-size: 30px;
-    }
-
-
+    color: rgb(255, 0, 221);
+    border: 1px solid rgb(255, 0, 221);
 }
